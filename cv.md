@@ -27,3 +27,39 @@ So I decided to look for something perspective I can be good at, and discovered 
 [project using MUI: gallery with search, likes, download button](https://github.com/User0k/image-gallery)
 
 ---
+
+### Tech skills:
+
+* HTML
+* CSS, ScSS
+* Javascript ES6+
+* Webpack, Gulp
+* Adobe Photoshop, Figma
+* React, MUI (Material UI)
+
+**familiar with**
+* Bootstrap
+* JQuery
+* Node.js
+
+---
+
+### Code sample
+
+**Maximum subarray sum (Codewars)** *The maximum sum subarray problem consists in finding the maximum sum of a contiguous subsequence in an array or list of integers*
+
+```
+const maxSequence = function(arr){
+  let intermediate = 0, res = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j <= i; j++) {
+      intermediate = arr.slice(j, arr.length - i + j).reduce((a, b) => a + b);
+      if (intermediate > res) res = intermediate;
+    };
+  };
+
+  return res;
+}
+```
+---
