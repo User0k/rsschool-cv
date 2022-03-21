@@ -4,9 +4,85 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
+  <link rel="stylesheet" href="./css/default.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/e4b9af8768.js" crossorigin="anonymous"></script>
+  <title>Pavel Altov CV</title>
 </head>
 <body>
+  <div class="row mx-2 my-2">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Curriculum vitae</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#contacts">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#languages">Languages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <aside class="col-lg-3 col-md-4 col-12">
+      <div class="card">
+        <img src="./img/avatar.jpg" alt="avatar" class="avatar">
+        <h1>Pavel Altov</h1>
+        <div class="card-body bg-light">
+          <h2><i class="fas fa-solid fa-code mr-2"></i> Fron-End Developer</h2>
+          <hr>
+          <h3 id="contacts">Contacts:</h3>
+            <ul>
+              <li class="tel"><h5><i class="fas fa-phone-alt"></i> +375292588229</h5></li>
+              <li class="e-mail"><h5><i class="fas fa-at"></i> Glucus2@yandex.ru</h5></li>
+              <li class="discord"><h5><i class="fas fa-envelope"> Discord:</i> <span>Pavel Altov(@User0k)</span></h5></li>
+            </ul>
+          <hr>
+          <h3 id="skills">Skills:</h3>
+            <ul>
+              <li><h5><i class="fas fa-file-image"></i> Adobe Photoshop, Figma</h5></li>
+              <li><h5><i class="fas fa-id-card"></i> HTML</h5></li>
+              <li><h5><i class="fas fa-id-card"></i> CSS, SASS (SCSS)</h5></li>
+              <li><h5><i class="fas fa-code-branch"></i> Javascript: ES6+</h5></li>
+              <li><h5><i class="fas fa-code-branch"></i> React, MUI</h5></li>
+            </ul>
+          <h4>Familiar with:</h4>
+          <br>
+            <ul>
+              <li><h5><i class="fas fa-code-branch"></i> Webpack, Gulp</h5></li>
+              <li><h5><i class="fas fa-code-branch"></i> Bootstrap, JQuery</h5></li>
+              <li><h5><i class="fas fa-code-branch"></i> Node.js</h5></li>
+            </ul>
+          <hr>
+          <h3 id="languages">Languages:</h3>
+            <ul>
+              <li><h5><i class="fas fa-head-side-cough"></i> Russian: native</h5></li>
+              <li><h5><i class="fas fa-head-side-cough"></i> English: B2 <a class="link-primary" href="https://learn.javascript.ru/courses/react-20210702/glucus2/en/certificate.jpg" target="_blank">EF SET sertificate</a></h5></li>
+            </ul>
+        </div>
+      </div>
+    </aside>
+  </div>
 
+  <script src="./js/highlight.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 </html>
